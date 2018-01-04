@@ -1,0 +1,97 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    color: white;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.highlighted {
+    color: black;
+    background: #F9D9F1;
+}
+
+.mss-logo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mss-content {
+    width: calc(100vw);
+    height: calc(100vh);
+    display: flex;
+}
+
+.mss-content > div {
+    width: 50%;
+    padding: 3em;
+}
+
+.mss-content h2 {
+    margin-top: 2em;
+}
+
+.mss-logo img {
+    min-width: 150px;
+    width: 10vw;
+}
+
+.stats i {
+    color: #F9D9F1;
+    width: 1.5em;
+    text-align: center;
+}
+
+hr {
+    border-top: 0;
+    color: white;
+    margin: 4em 0;
+}
+
+a {
+    color: white;
+}
+
+.member h2 {
+    margin-bottom: 0;
+}
+.member h3 {
+    margin-top: 0;
+}
+
+a:visited {
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F9D9F1;
+}
+
+@media screen and (max-width: 800px) {
+    .mss-content > div {
+        width: 100%;
+        padding: 1em;
+    }
+    .mss-content {
+        display: block;
+    }
+}
+
+/*# sourceMappingURL=app.css.map*/
